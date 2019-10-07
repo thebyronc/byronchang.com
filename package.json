@@ -13,9 +13,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.15.29",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
