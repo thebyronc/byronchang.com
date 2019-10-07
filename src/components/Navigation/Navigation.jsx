@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from 'styled-components';
 import { colors } from '../../style-utilities/variables';
+import Byron from '../../images/logo.png';
 
 const StyledNavigation = styled.nav`
     /* background-color: ${colors.purple}; */
@@ -16,7 +17,7 @@ class Navigation extends Component {
             <StyledNavigation className="navbar navbar-light">
 
                 <a class="navbar-brand" href="#">
-                    {/* <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> */}
+                    <img src={Byron} height="32" class="d-inline-block align-top" alt="" />
                     Byron Chang
                 </a>
 
