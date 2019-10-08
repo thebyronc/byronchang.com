@@ -14,6 +14,7 @@ class Index extends Component {
     render() {
         return (
             <>  
+                <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"></link>
                 <Navigation></Navigation>
                 <Header></Header>
                 <p>Index Page</p>

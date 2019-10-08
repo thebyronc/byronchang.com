@@ -5,6 +5,8 @@ import { colors } from '../style-utilities/variables';
 
 const StyledHeader = styled.div`
     background-color: ${colors.purple};
+    background-image: linear-gradient(to right, ${colors.purple}, ${colors.blue});
+    color: ${colors.volt};
     height: 75vh;
     display: flex;
     justify-content: center;
