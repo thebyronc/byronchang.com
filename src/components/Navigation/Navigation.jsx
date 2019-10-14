@@ -43,22 +43,13 @@ class Navigation extends Component {
             <StyledNavigation className="navbar navbar-light">
 
                 <a class="navbar-brand" href="#">
-<<<<<<< HEAD
-                    <img src={SVG} height="32" class="logo d-inline-block align-top" alt="" />
-                    {/* BYRON CHANG */}
-=======
                     <img src={SVGMask} height="32" class="logo d-inline-block align-top" alt="" />
->>>>>>> 1a0ab7e69fe0addee263b1ac6bb844de8f40741f
                     {/* {ReactDOM.render({SVG})} */}
                 </a>
 
                 <ul class="nav">
                     <li class="nav-item">
-<<<<<<< HEAD
-                        <a class="nav-link" href="#">Who Is Byron?</a>
-=======
                         <a class="nav-link" href="#">Byron Chang</a>
->>>>>>> 1a0ab7e69fe0addee263b1ac6bb844de8f40741f
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Code Samples</a>
