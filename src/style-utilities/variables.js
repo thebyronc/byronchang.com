@@ -4,5 +4,7 @@ export const colors = {
     volt: '#CEFF00',
     purple: '#757AD1',
     grey: '#282828',
-    white: '#F1F1F1'
+    white: '#F1F1F1',
+    teal: '#4AD9D9',
+    red: '#F2385A'
 };
