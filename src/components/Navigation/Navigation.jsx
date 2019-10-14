@@ -28,15 +28,16 @@ class Navigation extends Component {
 
                 <a class="navbar-brand" href="#">
                     <img src={SVG} height="32" class="logo d-inline-block align-top" alt="" />
+                    {/* BYRON CHANG */}
                     {/* {ReactDOM.render({SVG})} */}
                 </a>
 
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Me Myself and I</a>
+                        <a class="nav-link" href="#">Who Is Byron?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Code</a>
+                        <a class="nav-link" href="#">Code Samples</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Portfolio</a>

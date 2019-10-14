@@ -6,7 +6,7 @@ import { colors } from '../style-utilities/variables';
 const StyledHeader = styled.div`
     background-color: ${colors.purple};
     background-image: linear-gradient(to right, ${colors.purple}, ${colors.blue});
-    color: ${colors.volt};
+    /* color: ${colors.volt}; */
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ class Header extends Component {
             <StyledHeader className="container-fluid">
                 <header>
                     <h1>Full-Stack Developer</h1>
-                    <p>Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                    <p>Hi, my name is <strong>Byron Chang</strong>, I help start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
                 </header>
             </StyledHeader>
         );
