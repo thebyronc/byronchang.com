@@ -23,9 +23,9 @@ class Index extends Component {
                     <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap" rel="stylesheet"></link>
                 </Helmet>
                 
-                <Navigation></Navigation>
+                <Navigation />
                 <Header></Header>
-                <Square></Square>
+                <Square />
                 <p>Index Page</p>
             </>
         );

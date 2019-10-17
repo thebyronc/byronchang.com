@@ -33,6 +33,18 @@
 1. **Local site should be accessable via** 
 
     `http://localhost:8000`
+    
+
+## Coding Practices and Style Guide
+
+- Use .jsx extension for React component files
+
+- Always use eslint and prettier (.eslintrc is included in the repo and prettier is set up to run through eslint, go [here](https://eslint.org/docs/user-guide/integrations) for help setting it up)
+
+- Use PascalCase for React components names - file names, `class` and `const` names.
+
+
+**ONE EXCEPTION**. `pages` file names names MUST BE LOWER CASE. Gatsby routing will not work otherwise.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
