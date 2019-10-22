@@ -41,8 +41,9 @@
 
 - Always use eslint and prettier (.eslintrc is included in the repo and prettier is set up to run through eslint, go [here](https://eslint.org/docs/user-guide/integrations) for help setting it up)
 
-- Use PascalCase for React components names - file names, `class` and `const` names.
+- This site uses Styled Components. Install `https://github.com/styled-components/vscode-styled-components` for VS Code for styled components highlighting. If you're not using VS Code, look for a similar plugin for your code editor.
 
+- Use PascalCase for React components names - file names, `class` and `const` names.
 
 **ONE EXCEPTION**. `pages` file names names MUST BE LOWER CASE. Gatsby routing will not work otherwise.
 

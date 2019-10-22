@@ -77,28 +77,19 @@ class WorkHistory extends Component {
           <div class="col-md-9">
             <ul>
               <li>
-                Clients projects: Portland Trail Blazers, Riviana, Coca-Cola Company, Legacy Health/GoHealth, Jaguar/Land Rover, Chuck E. Cheese, KinderCare, Portland Auto Show.
+                Managed coding projects via GitHub. Executed project merges and resolved coding conflicts of multiple programmers.
               </li>
               <li>
-                Built web functionality based on InVision, AdobeXD, and Photoshop mockups with careful attention to detail. Made additional design decisions to ensure consistency within the existing design.
+                Developed personal portfolio using HTML, CSS, AngularJS, JQUERY, FireBase, and node.js
               </li>
               <li>
-                Developed web applications using the following technologies: React.js, Vue.js, Docker, Composer, MySQL, AWS EC2, flat file databases, Node.js, Drupal, and more.
+                Developed RESTful Java based server while using H2 SQL.
               </li>
               <li>
-                Collaborated with developer teams in Dallas, TX to build out large multi-sites with a core template.
+                Designed and Developed Android Applications using Android Studio 3.0.1, Butterknife, and NoSql Firebase.
               </li>
               <li>
-                Managed site migrations to and from multiple instances, while standardizing the instance configuration with .bash_profiles, git pipeline, ssl cert, wiki and readme’s for future developers and devOps.
-              </li>
-              <li>
-                Redesigned and streamlined the intern hiring process and improved the overall skill level of the hired interns. Facilitated new hire orientation.
-              </li>
-              <li>
-                Facilitated client calls with their development teams to collaborate on solutions.
-              </li>
-              <li>
-                Developed technical documentation for client use.
+              Paired Programming through the entire course of Epicodus.
               </li>
             </ul>
           </div>
