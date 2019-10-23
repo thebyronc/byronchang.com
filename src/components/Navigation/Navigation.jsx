@@ -4,7 +4,7 @@ import { colors } from '../../style-utilities/variables';
 import SVGMask from '../../images/logo-mask.svg';
 
 const StyledNavigation = styled.nav`
-  background-color: ${colors.grey}
+  background-color: ${colors.grey};
   .nav-link {
     font-family: 'Quicksand', sans-serif;
     color: ${colors.volt};
