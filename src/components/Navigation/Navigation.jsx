@@ -46,24 +46,28 @@ class Navigation extends Component {
           {/* {ReactDOM.render({SVG})} */}
         </a>
 
-        <ul class="nav">
+        <ul class="nav" id="navbarToggleExternalContent">
           <li class="nav-item">
-            <a class="nav-link" href="#">Byron Chang</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Code Samples</a>
+            <a class="nav-link" href="#code">Code Samples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work History</a>
+            <a class="nav-link" href="#resume">Work History</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-
+        {/* <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav> */}
       </StyledNavigation>
     );
   }

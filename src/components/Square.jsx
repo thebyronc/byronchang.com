@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import styled from 'styled-components';
 import { colors } from '../style-utilities/variables';
 import SquareItem from './SquareItem';
-import SummitFalcon from '../images/Falcon-Logo-no-background.png'
+import SummitFalcon from '../images/Falcon-Logo-no-background.png';
+import PortlandAutoShow from '../images/portlandautoshow.png';
 
 const StyledSquare = styled.div`
   color: ${colors.white};
@@ -14,11 +15,10 @@ class Square extends Component {
       <StyledSquare className="container-fluid">
         <div className="row">
           <SquareItem color={''}>
-            <h2>hello</h2>
+            <img src={PortlandAutoShow} alt="Portland Auto Show" />
           </SquareItem>
           <SquareItem color={'grey'}>
             <img src={SummitFalcon} alt="Summit Wushu" />
-            <h2>Summit Wushu</h2>
           </SquareItem>
           <SquareItem color={''}>
             <h2>hello</h2>

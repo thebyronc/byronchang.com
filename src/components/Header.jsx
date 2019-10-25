@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from 'styled-components';
-import { colors } from '../style-utilities/variables';
+import { colors, breakpoints } from '../style-utilities/variables';
 
 const StyledHeader = styled.div`
   background-color: ${colors.purple};
@@ -24,7 +24,7 @@ class Header extends Component {
     return (
       <StyledHeader className="container-fluid">
         <header>
-          <h1>Hello, my name is Byron Chang.</h1>
+          {/* <h1>Hello, my name is Byron Chang.</h1> */}
           <p>Helping start-ups, small businesses, and agencies achieve high quality applications and exceptional user experience</p>
         </header>
       </StyledHeader>

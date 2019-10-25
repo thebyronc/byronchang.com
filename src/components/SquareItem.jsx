@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import styled from 'styled-components';
-import { colors } from '../style-utilities/variables';
+import { colors, breakpoints } from '../style-utilities/variables';
 
 const StyledSquareItem = styled.div`
   background-color: ${colors.white};
   background: linear-gradient(-45deg, ${colors.white}, #fff, ${colors.white});
   background-size: 300% 300%;
   color: ${colors.grey};
-  height: 33vw;
+  height: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,6 +15,11 @@ const StyledSquareItem = styled.div`
 
   img {
     max-width: 50%;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: ${breakpoints.mobile}) {
+    height: 33vw;
   }
 
   &.red {
@@ -70,11 +75,18 @@ const StyledSquareItem = styled.div`
   }
 `;
 
+const StyledInfo = styled.div`
+  background-color: #333333;
+  width: 100%;
+  color: #ffffff;
+`;
+
 class SquareItem extends Component {
   render() {
     return (
-      <StyledSquareItem className={`col ${this.props.color}`}>
+      <StyledSquareItem className={`col-sm ${this.props.color}`}>
         {this.props.children}
+        <StyledInfo>Hello</StyledInfo>
       </StyledSquareItem>
     );
   }

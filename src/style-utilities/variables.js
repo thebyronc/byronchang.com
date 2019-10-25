@@ -8,3 +8,10 @@ export const colors = {
     teal: '#4AD9D9',
     red: '#F2385A'
 };
+
+export const breakpoints = {
+    mobile: '576px',
+    tablet: '768px',
+    desktop: '992px',
+    ultraWideDesktop: '1200px'
+  };
