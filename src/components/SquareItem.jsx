@@ -21,7 +21,7 @@ const StyledSquareItem = styled.div`
   
   /* Default Square Values when no color is specified */
   background-color: ${colors.white};
-  background: linear-gradient(-45deg, ${colors.white}, #fff, ${colors.white});
+  background: linear-gradient(-45deg, ${colors.white}, #ffffff, ${colors.white});
   background-size: 300% 300%;
   color: ${colors.grey};
 
