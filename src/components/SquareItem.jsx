@@ -12,6 +12,7 @@ const StyledSquareItem = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 0px;
 
   img {
     max-width: 50%;
@@ -76,9 +77,18 @@ const StyledSquareItem = styled.div`
 `;
 
 const StyledInfo = styled.div`
-  background-color: #333333;
+  background-color: rgba(0,0,0,.75);
   width: 100%;
   color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  height: 0%;
+  transition: height .5s;
+  overflow: hidden;
+  
+  ${StyledSquareItem}:hover & {
+    height: 33%;
+  }
 `;
 
 class SquareItem extends Component {
@@ -86,7 +96,7 @@ class SquareItem extends Component {
     return (
       <StyledSquareItem className={`col-sm ${this.props.color}`}>
         {this.props.children}
-        <StyledInfo>Hello</StyledInfo>
+        <StyledInfo>{this.props.itemInfo}</StyledInfo>
       </StyledSquareItem>
     );
   }

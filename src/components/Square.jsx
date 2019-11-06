@@ -12,12 +12,12 @@ const StyledSquare = styled.div`
 class Square extends Component {
   render() {
     return (
-      <StyledSquare className="container-fluid">
+      <StyledSquare className="container-fluid" id="square">
         <div className="row">
-          <SquareItem color={''}>
+          <SquareItem color={''} itemInfo={'Portland Auto Show'}>
             <img src={PortlandAutoShow} alt="Portland Auto Show" />
           </SquareItem>
-          <SquareItem color={'grey'}>
+          <SquareItem color={'grey'} itemInfo={'Summit Wushu Academy'}>
             <img src={SummitFalcon} alt="Summit Wushu" />
           </SquareItem>
           <SquareItem color={''}>

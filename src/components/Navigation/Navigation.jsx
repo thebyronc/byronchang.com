@@ -68,10 +68,10 @@ class Navigation extends Component {
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#code">Code</a>
+              <a class="nav-link" href="#square">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#code">Code</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#resume">Work History</a>
