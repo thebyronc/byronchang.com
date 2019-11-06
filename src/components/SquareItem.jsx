@@ -3,10 +3,6 @@ import styled from 'styled-components';
 import { colors, breakpoints } from '../style-utilities/variables';
 
 const StyledSquareItem = styled.div`
-  background-color: ${colors.white};
-  background: linear-gradient(-45deg, ${colors.white}, #fff, ${colors.white});
-  background-size: 300% 300%;
-  color: ${colors.grey};
   height: 100vw;
   display: flex;
   justify-content: center;
@@ -22,6 +18,12 @@ const StyledSquareItem = styled.div`
   @media (min-width: ${breakpoints.mobile}) {
     height: 33vw;
   }
+  
+  /* Default Square Values when no color is specified */
+  background-color: ${colors.white};
+  background: linear-gradient(-45deg, ${colors.white}, #fff, ${colors.white});
+  background-size: 300% 300%;
+  color: ${colors.grey};
 
   &.red {
     background: linear-gradient(-45deg, ${colors.red}, #F48297, ${colors.red});
@@ -85,7 +87,7 @@ const StyledInfo = styled.div`
   height: 0%;
   transition: height .5s;
   overflow: hidden;
-  
+
   ${StyledSquareItem}:hover & {
     height: 33%;
   }
