@@ -84,9 +84,10 @@ const StyledInfo = styled.div`
   color: #ffffff;
   position: absolute;
   bottom: 0;
-  height: 0%;
-  transition: height .5s;
   overflow: hidden;
+  height: 0%;
+  padding: 15px;
+  transition: height .5s;
 
   ${StyledSquareItem}:hover & {
     height: 33%;
