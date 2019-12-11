@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet"
-import 'bootstrap/dist/css/bootstrap.min.css';
 // import $ from 'jquery';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 // import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import React, { Component } from "react";
 // import styled from 'styled-components';
@@ -22,6 +22,7 @@ class Index extends Component {
           <title>Byron Chang</title>
           <link rel="canonical" href="https://byronchang.com/" />
           <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap" rel="stylesheet"></link>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
         </Helmet>
 
         <Navigation />

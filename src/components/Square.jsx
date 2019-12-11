@@ -4,6 +4,7 @@ import { colors } from '../style-utilities/variables';
 import SquareItem from './SquareItem';
 import SummitFalcon from '../images/Falcon-Logo-no-background.png';
 import PortlandAutoShow from '../images/portlandautoshow.png';
+import AnsiraLogo from '../images/ansira.png';
 
 const StyledSquare = styled.div`
   color: ${colors.white};
@@ -21,7 +22,7 @@ class Square extends Component {
             <img src={SummitFalcon} alt="Summit Wushu" />
           </SquareItem>
           <SquareItem color={''}>
-            <h2>hello</h2>
+          <img src={AnsiraLogo} alt="Ansira" />
           </SquareItem>
         </div>
         

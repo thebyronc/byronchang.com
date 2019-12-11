@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from 'styled-components';
-import { colors, breakpoints } from '../style-utilities/variables';
+import { colors } from '../style-utilities/variables';
 
 const StyledHeader = styled.div`
   background-color: ${colors.purple};
