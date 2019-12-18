@@ -29,7 +29,6 @@ class Index extends Component {
         <Header></Header>
         <Square />
         <WorkHistory />
-        <p>Index Page</p>
       </>
     );
   }
