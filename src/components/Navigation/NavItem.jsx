@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { colors, breakpoints } from '../../style-utilities/variables';
 import SVGMask from '../../images/logo-mask.svg';
 
-const StyledNavigation = styled.nav`
+const StyledNavItem = styled.nav`
   /* background-color: ${colors.grey}; */
   position: relative;
   z-index: 1;
@@ -52,10 +52,10 @@ const StyledNavigation = styled.nav`
   }
 `;
 
-class Navigation extends Component {
+class NavItem extends Component {
   render() {
     return (
-      <StyledNavigation className="navbar navbar-expand-sm navbar-dark">
+      <StyledNavItem className="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand" href="#">
           <img src={SVGMask} height="32" class="logo d-inline-block align-top" alt="" />
         </a>
@@ -83,25 +83,7 @@ class Navigation extends Component {
             </li>
           </ul>
         </div>
-
-        {/* <ul class="nav" id="navbarToggleExternalContent">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#code">Code Samples</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Work History</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul> */}
-      </StyledNavigation>
+      </StyledNavItem>
     );
   }
 }
