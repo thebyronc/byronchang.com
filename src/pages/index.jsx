@@ -12,6 +12,7 @@ import Navigation from '../components/Navigation/Navigation';
 import Header from '../components/Header';
 import Square from '../components/Square';
 import WorkHistory from '../components/WorkHistory';
+import AboutMe from '../components/AboutMe';
 
 class Index extends Component {
   render() {
@@ -27,6 +28,7 @@ class Index extends Component {
 
         <Navigation />
         <Header></Header>
+        <AboutMe></AboutMe>
         <Square />
         <WorkHistory />
       </>

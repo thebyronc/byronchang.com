@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { colors } from '../style-utilities/variables';
 
 const StyledHeader = styled.div`
-  background-color: ${colors.purple};
-  background: linear-gradient(-45deg, ${colors.purple}, ${colors.blue});
-  background-size: 100% 100%;
+  /* background-color: ${colors.purple}; */
+  /* background: linear-gradient(-45deg, ${colors.purple}, ${colors.blue});
+  background-size: 100% 100%; */
   color: ${colors.white};
   height: 760px;
   display: flex;
@@ -28,8 +28,8 @@ const StyledBackground = styled.div`
   transform: skewY(12deg);
   -webkit-transform-origin: 100%;
   transform-origin: 100%;
-  background: -o-linear-gradient(240deg, #282828 15%, #373737 70%, #3c4859 94%);
-  background: linear-gradient(-150deg, #282828 15%, #373737 70%, #3c4859 94%);
+  background: -o-linear-gradient(240deg, #373737 15%, #282828 70%, #3c4859 94%);
+  background: linear-gradient(-150deg, #373737 15%, #282828 70%, #3c4859 94%);
   span {
     -webkit-transition: 0.4s all;
     -o-transition: 0.4s all;

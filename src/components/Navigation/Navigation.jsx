@@ -7,13 +7,15 @@ const StyledNavigation = styled.nav`
   /* background-color: ${colors.grey}; */
   position: relative;
   z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
 
-  .nav-link {
+  .nav-link.link-custom {
     font-family: 'Quicksand', sans-serif;
     color: ${colors.volt};
     transition: 0.3s;
   }
-  .nav-link:hover {
+  .nav-link.link-custom:hover {
     color: ${colors.volt};
   }
   .active {
@@ -25,7 +27,7 @@ const StyledNavigation = styled.nav`
     background-size: 300% 300%;
     animation: logoTransition 15s ease infinite;
   }
-  .nav-link {
+  .link-custom {
     border-bottom: 1px solid ${colors.white};
     text-align: center;
   }
@@ -67,19 +69,19 @@ class Navigation extends Component {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link link-custom" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#square">Portfolio</a>
+              <a class="nav-link link-custom" href="#square">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#code">Code</a>
+              <a class="nav-link link-custom" href="#code">Code</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#resume">Work History</a>
+              <a class="nav-link link-custom" href="#resume">Work History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link link-custom" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
