@@ -6,20 +6,20 @@ import SVGMask from '../../images/logo-mask.svg';
 const StyledNavigation = styled.nav`
   /* background-color: ${colors.grey}; */
   position: relative;
-  z-index: 1;
-  max-width: 1200px;
+  z-index: 2;
+  max-width: 1140px;
   margin: 0 auto;
-
-  .nav-link.link-custom {
+  /* Increased specificity by adding &&  */
+  && .nav-link.link-custom {
     font-family: 'Quicksand', sans-serif;
-    color: #ffffff !important;
+    color: #ffffff;
     transition: 0.3s;
   }
-  .nav-link.link-custom:hover {
-    color: ${colors.volt} !important;
+  && .nav-link.link-custom:hover {
+    color: ${colors.volt};
   }
-  .active {
-    color: ${colors.volt} !important;
+  && .active {
+    color: ${colors.volt};
   }
   .logo {
     background-color: ${colors.volt};

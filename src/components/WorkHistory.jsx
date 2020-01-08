@@ -7,7 +7,7 @@ import EpicodusLogo from '../images/epicodus.png';
 import NikeLogo from '../images/nike.png';
 
 const StyledWorkHistory = styled.div`
-  background-color: ${colors.white};
+  /* background-color: ${colors.white}; */
   color: ${colors.grey};
   .row {
     margin: 32px 0 32px;

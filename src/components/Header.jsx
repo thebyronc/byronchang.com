@@ -8,7 +8,7 @@ const StyledHeader = styled.div`
   /* background: linear-gradient(-45deg, ${colors.purple}, ${colors.blue});
   background-size: 100% 100%; */
   color: ${colors.white};
-  height: 760px;
+  height: 75vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,8 +17,16 @@ const StyledHeader = styled.div`
     width: 100%;
     max-width: 600px;
     text-align: center;
+    position: absolute;
+    top: 0;
     z-index: 1;
-    top: -180px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin-bottom: 280px;
+    }
   }
 `;
 
