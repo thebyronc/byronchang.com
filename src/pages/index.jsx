@@ -20,10 +20,10 @@ class Index extends Component {
       <>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Byron Chang</title>
-          <link rel="canonical" href="https://byronchang.com/" />
           <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
+          <title>Byron Chang</title>
+          <link rel="canonical" href="https://byronchang.com/" />
         </Helmet>
 
         <Navigation />

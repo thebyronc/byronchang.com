@@ -5,7 +5,7 @@ import { colors } from '../style-utilities/variables';
 import AnsiraLogo from '../images/ansira.png';
 
 const StyledAboutMe = styled.div`
-  background-color: ${colors.white};
+  /* background-color: ${colors.white}; */
   color: ${colors.grey};
   .row {
     margin: 32px 0 32px;
@@ -27,19 +27,18 @@ class AboutMe extends Component {
       <StyledAboutMe className="container">
         <div className="row">
           <div class="col">
-            <h1 className="header">Work History</h1>
+            <h1 className="header">Hai!</h1>
             <p>I have over 7 years of experience in designing and creating web-based training for a global audience and over a year developing consumer-facing web applications. I am an initiator and a quick learner with effective leadership abilities and am equally adept at collaborating with others in an Agile environment. I went to coding school to learn how to develop Java based applications and have gained over a year of professional experience developing on a wide range of technologies including: React.js, Docker, Vue.js, MySQL, AWS EC2, Flat file databases, Node.js, and more. </p>
           </div>
         </div>
 
         <div className="row">
           <div class="col-md-3">
-            <h2>Developer</h2>
+            <h2>Test</h2>
             <ul className="list-unstyled">
               <li>Ansira</li>
               <li>August 2018 - Present</li>
             </ul>
-            <img src={AnsiraLogo} alt="ansira" />
           </div>
           <div class="col-md-9">
             <ul>

@@ -12,14 +12,14 @@ const StyledNavigation = styled.nav`
 
   .nav-link.link-custom {
     font-family: 'Quicksand', sans-serif;
-    color: ${colors.volt};
+    color: #ffffff !important;
     transition: 0.3s;
   }
   .nav-link.link-custom:hover {
-    color: ${colors.volt};
+    color: ${colors.volt} !important;
   }
   .active {
-    color: ${colors.volt};
+    color: ${colors.volt} !important;
   }
   .logo {
     background-color: ${colors.volt};
@@ -58,9 +58,12 @@ class Navigation extends Component {
   render() {
     return (
       <StyledNavigation className="navbar navbar-expand-sm navbar-dark">
-        <a class="navbar-brand" href="#">
+        {/* <a class="navbar-brand" href="#">
           <img src={SVGMask} height="32" class="logo d-inline-block align-top" alt="" />
-        </a>
+        </a> */}
+        <div class="navbar-brand" href="#">
+          <img src={SVGMask} height="32" class="logo d-inline-block align-top" alt="" />
+        </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
