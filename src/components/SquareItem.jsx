@@ -9,6 +9,7 @@ const StyledSquareItem = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  overflow: hidden;
 
   img {
     max-width: 50%;
@@ -83,18 +84,22 @@ const StyledInfo = styled.div`
   width: 100%;
   color: #ffffff;
   position: absolute;
-  bottom: 0;
+  bottom: -30px; /* This value is dependent on padding of the padding */
+  padding: 15px;
   overflow: hidden;
   height: 0%;
-  padding: 0px;
   transition: height .5s;
-
+  display: flex;
+  justify-content: center;
+  
   ${StyledSquareItem}:hover & {
     height: 33%;
-    padding: 15px;
   }
 `;
 
+const StyledText = styled.div`
+
+`;
 class SquareItem extends Component {
   render() {
     return (

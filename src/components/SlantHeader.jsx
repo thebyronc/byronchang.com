@@ -38,9 +38,9 @@ const StyledSlantBackground = styled.div`
   span:nth-child(3) {
     width: 33.33333%;
     right: 49.99999%;
-    bottom: auto;
-    left: auto;
-    background: #222222;
+    bottom: 40%;
+    left: 0;
+    background: #282828;
   }
   span:nth-child(4) {
     width: 33.33333%;

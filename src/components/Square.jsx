@@ -26,7 +26,7 @@ class Square extends Component {
           </SquareItem>
         </div>
         
-        <div className="row">
+        {/* <div className="row">
           <SquareItem color={'volt'}>
             <h2>hello</h2>
           </SquareItem>
@@ -36,7 +36,7 @@ class Square extends Component {
           <SquareItem color={'purple'}>
             <h2>hello</h2>
           </SquareItem>
-        </div>
+        </div> */}
       </StyledSquare>
     );
   }
